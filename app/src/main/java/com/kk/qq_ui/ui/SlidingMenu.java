@@ -49,11 +49,11 @@ public class SlidingMenu extends HorizontalScrollView {
             switch (attr) {
                 case R.styleable.SlidingMenu_rightPadding:
                     // 默认50
-//                    mMenuRightPadding = a.getDimensionPixelSize(attr,
-//                            (int) TypedValue.applyDimension(
-//                                    TypedValue.COMPLEX_UNIT_DIP, 100f,
-//                                    getResources().getDisplayMetrics()));// 默认为10DP
-                    mMenuRightPadding = 100;
+                    mMenuRightPadding = a.getDimensionPixelSize(attr,
+                            (int) TypedValue.applyDimension(
+                                    TypedValue.COMPLEX_UNIT_DIP, 100f,
+                                    getResources().getDisplayMetrics()));// 默认为10DP
+//                    mMenuRightPadding = 1000;
                     break;
             }
         }

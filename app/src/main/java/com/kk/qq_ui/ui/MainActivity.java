@@ -22,7 +22,6 @@ public class MainActivity extends Activity {
         mParentView.setSmoothScrollingEnabled(true);
         btn_test.setOnClickListener(l -> {
             mParentView.toggle();
-//            mParentView.smoothScrollTo(500,0);
         });
 
     }
