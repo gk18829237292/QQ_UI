@@ -4,5 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/content"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:id="@+id/view_content_over"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa000000"
+        />
+
 </android.support.constraint.ConstraintLayout>
 

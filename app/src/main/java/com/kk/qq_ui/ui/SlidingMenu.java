@@ -52,7 +52,6 @@ public class SlidingMenu extends HorizontalScrollView {
                             (int) TypedValue.applyDimension(
                                     TypedValue.COMPLEX_UNIT_DIP, 100f,
                                     getResources().getDisplayMetrics()));// 默认为10DP
-//                    mMenuRightPadding = 1000;
                     break;
             }
         }

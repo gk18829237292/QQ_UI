@@ -4,12 +4,21 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/menu"
+        android:scaleType="centerCrop"
+        />
+
     <View
         android:id="@+id/view_menu_over"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:background="#aa000000"
         />
+
+
 
 </android.support.constraint.ConstraintLayout>
 

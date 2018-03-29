@@ -19,6 +19,5 @@ public class MainActivity extends Activity {
         mParentView = findViewById(R.id.main_parent);
         mParentView.setSmoothScrollingEnabled(true);
 
-
     }
 }
